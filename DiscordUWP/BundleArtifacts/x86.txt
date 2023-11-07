@@ -1,0 +1,2 @@
+MainPackage=D:\DiscordWebView2\DiscordUWP\DiscordUWP\bin\x86\Release\DiscordUWP_1.4.4.0_x86.msix
+SymbolPackage=D:\DiscordWebView2\DiscordUWP\DiscordUWP\obj\x86\Release\Symbols\DiscordUWP_1.4.4.0_x86.appxsym
