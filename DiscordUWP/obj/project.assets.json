@@ -10617,11 +10617,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DiscordWebView2\\DiscordUWP\\DiscordUWP\\DiscordUWP.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\Dixercord\\DiscordUWP\\DiscordUWP.csproj",
       "projectName": "DiscordUWP",
-      "projectPath": "D:\\DiscordWebView2\\DiscordUWP\\DiscordUWP\\DiscordUWP.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Dixercord\\DiscordUWP\\DiscordUWP.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\DiscordWebView2\\DiscordUWP\\DiscordUWP\\obj\\",
+      "outputPath": "C:\\Users\\User\\Documents\\GitHub\\Dixercord\\DiscordUWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

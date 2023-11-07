@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y3kISK35VRBzs9XgHmmoYY4CIDwGozYzHOzNn8W0/eiCZtHE7qxKKx+8GDCemAH/xaQdyTQppYP9TLwXltkerg==",
+  "dgSpecHash": "98Zh0fjrOLuN2de+yENtSbeX0QRk2rd4VDiCuGCSCMy+RfjG2j8KMyaQrk9fK81F/Njgf2cnrge6PQPYaX+X8g==",
   "success": true,
-  "projectFilePath": "D:\\DiscordWebView2\\DiscordUWP\\DiscordUWP\\DiscordUWP.csproj",
+  "projectFilePath": "C:\\Users\\User\\Documents\\GitHub\\Dixercord\\DiscordUWP\\DiscordUWP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.net.native.compiler\\2.2.12-rel-31116-00\\microsoft.net.native.compiler.2.2.12-rel-31116-00.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.net.uwpcoreruntimesdk\\2.2.14\\microsoft.net.uwpcoreruntimesdk.2.2.14.nupkg.sha512",

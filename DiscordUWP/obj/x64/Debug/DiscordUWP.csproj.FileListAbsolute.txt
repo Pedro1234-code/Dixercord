@@ -48,3 +48,6 @@ D:\DiscordWebView2\DiscordUWP\DiscordUWP\obj\x64\Debug\MultipleQualifiersPerDime
 D:\DiscordWebView2\DiscordUWP\DiscordUWP\obj\x64\Debug\ProjectArchitectures.txt
 D:\DiscordWebView2\DiscordUWP\DiscordUWP\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_638017973300000000.json
 D:\DiscordWebView2\DiscordUWP\DiscordUWP\obj\x64\Debug\.winmd_cache\$Microsoft.Web.WebView2.Core.winmd_638301968440000000.json
+C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\obj\x64\Debug\DiscordUWP.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\obj\x64\Debug\DiscordUWP.exe
+C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\obj\x64\Debug\DiscordUWP.pdb
