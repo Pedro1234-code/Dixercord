@@ -7,3 +7,5 @@ DiscordUWP/bin/x64/Release/DiscordUWP.exe
 *.appxsym
 *.msix
 *.msixbundle
+DiscordUWP/AppPackages/DiscordUWP_1.0.0.0_Test/DiscordUWP_1.0.0.0_x64.msixbundle
+DiscordUWP/bin

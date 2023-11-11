@@ -1173,3 +1173,4 @@ C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\obj\x64\Release\ilc\intermed
 C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\obj\x64\Release\ilc\intermediate\Resources\System.Runtime.WindowsRuntime.UI.Xaml.index.txt
 C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\obj\x64\Release\ilc\intermediate\rhbindargs.DiscordUWP.rsp
 C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\obj\x64\Release\ilc\intermediate\System.Private.DiscordUWP.Generated.dll
+C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\bin\x64\Release\Upload\DiscordUWP.build.appxrecipe
