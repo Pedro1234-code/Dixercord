@@ -465,7 +465,7 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
-      "Microsoft.UI.Xaml/2.8.5": {
+      "Microsoft.UI.Xaml/2.8.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.Web.WebView2": "1.0.1264.42"
@@ -484,7 +484,7 @@
           "buildTransitive/Microsoft.UI.Xaml.props": {}
         }
       },
-      "Microsoft.Web.WebView2/1.0.2088.41": {
+      "Microsoft.Web.WebView2/1.0.2151.40": {
         "type": "package",
         "build": {
           "build/Microsoft.Web.WebView2.targets": {}
@@ -1074,7 +1074,7 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
-      "Microsoft.UI.Xaml/2.8.5": {
+      "Microsoft.UI.Xaml/2.8.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.Web.WebView2": "1.0.1264.42"
@@ -1093,7 +1093,7 @@
           "buildTransitive/Microsoft.UI.Xaml.props": {}
         }
       },
-      "Microsoft.Web.WebView2/1.0.2088.41": {
+      "Microsoft.Web.WebView2/1.0.2151.40": {
         "type": "package",
         "build": {
           "build/Microsoft.Web.WebView2.targets": {}
@@ -1847,7 +1847,7 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
-      "Microsoft.UI.Xaml/2.8.5": {
+      "Microsoft.UI.Xaml/2.8.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.Web.WebView2": "1.0.1264.42"
@@ -1866,7 +1866,7 @@
           "buildTransitive/Microsoft.UI.Xaml.props": {}
         }
       },
-      "Microsoft.Web.WebView2/1.0.2088.41": {
+      "Microsoft.Web.WebView2/1.0.2151.40": {
         "type": "package",
         "build": {
           "build/Microsoft.Web.WebView2.targets": {}
@@ -2621,7 +2621,7 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
-      "Microsoft.UI.Xaml/2.8.5": {
+      "Microsoft.UI.Xaml/2.8.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.Web.WebView2": "1.0.1264.42"
@@ -2640,7 +2640,7 @@
           "buildTransitive/Microsoft.UI.Xaml.props": {}
         }
       },
-      "Microsoft.Web.WebView2/1.0.2088.41": {
+      "Microsoft.Web.WebView2/1.0.2151.40": {
         "type": "package",
         "native": {
           "runtimes/win-arm64/native/WebView2Loader.dll": {}
@@ -3398,7 +3398,7 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
-      "Microsoft.UI.Xaml/2.8.5": {
+      "Microsoft.UI.Xaml/2.8.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.Web.WebView2": "1.0.1264.42"
@@ -3417,7 +3417,7 @@
           "buildTransitive/Microsoft.UI.Xaml.props": {}
         }
       },
-      "Microsoft.Web.WebView2/1.0.2088.41": {
+      "Microsoft.Web.WebView2/1.0.2151.40": {
         "type": "package",
         "native": {
           "runtimes/win-x64/native/WebView2Loader.dll": {}
@@ -4174,7 +4174,7 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
-      "Microsoft.UI.Xaml/2.8.5": {
+      "Microsoft.UI.Xaml/2.8.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.Web.WebView2": "1.0.1264.42"
@@ -4193,7 +4193,7 @@
           "buildTransitive/Microsoft.UI.Xaml.props": {}
         }
       },
-      "Microsoft.Web.WebView2/1.0.2088.41": {
+      "Microsoft.Web.WebView2/1.0.2151.40": {
         "type": "package",
         "native": {
           "runtimes/win-x64/native/WebView2Loader.dll": {}
@@ -4951,7 +4951,7 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
-      "Microsoft.UI.Xaml/2.8.5": {
+      "Microsoft.UI.Xaml/2.8.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.Web.WebView2": "1.0.1264.42"
@@ -4970,7 +4970,7 @@
           "buildTransitive/Microsoft.UI.Xaml.props": {}
         }
       },
-      "Microsoft.Web.WebView2/1.0.2088.41": {
+      "Microsoft.Web.WebView2/1.0.2151.40": {
         "type": "package",
         "native": {
           "runtimes/win-x86/native/WebView2Loader.dll": {}
@@ -5727,7 +5727,7 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
-      "Microsoft.UI.Xaml/2.8.5": {
+      "Microsoft.UI.Xaml/2.8.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.Web.WebView2": "1.0.1264.42"
@@ -5746,7 +5746,7 @@
           "buildTransitive/Microsoft.UI.Xaml.props": {}
         }
       },
-      "Microsoft.Web.WebView2/1.0.2088.41": {
+      "Microsoft.Web.WebView2/1.0.2151.40": {
         "type": "package",
         "native": {
           "runtimes/win-x86/native/WebView2Loader.dll": {}
@@ -6422,10 +6422,10 @@
         "runtime.json"
       ]
     },
-    "Microsoft.UI.Xaml/2.8.5": {
-      "sha512": "R+LsMZ3+Vj6hUqy2c9D6/ZwgAqbw0aAiRNt51NTNv/8pdW3CBqf4ngastI31/IUdUs1tuihYqjQ5AjTIx9BDBA==",
+    "Microsoft.UI.Xaml/2.8.6": {
+      "sha512": "kdfCnoV/1bOu06EZcGYhQNvVjKWfsR5WRf6ftXtPbx1j4Q+ltMGNBW9TUTcscpt7qpwb6pB4R4KEjGGliWefzw==",
       "type": "package",
-      "path": "microsoft.ui.xaml/2.8.5",
+      "path": "microsoft.ui.xaml/2.8.6",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -6444,7 +6444,7 @@
         "lib/uap10.0/Microsoft.UI.Xaml.xml",
         "lib/uap10.0/Microsoft.UI.Xaml/Themes/Generic.xaml",
         "license.txt",
-        "microsoft.ui.xaml.2.8.5.nupkg.sha512",
+        "microsoft.ui.xaml.2.8.6.nupkg.sha512",
         "microsoft.ui.xaml.nuspec",
         "readme.txt",
         "tools/AppX/arm/Release/Microsoft.UI.Xaml.2.8.appx",
@@ -6454,10 +6454,10 @@
         "tools/VisualStudioToolsManifest.xml"
       ]
     },
-    "Microsoft.Web.WebView2/1.0.2088.41": {
-      "sha512": "QNiJR29CUrCqWCen7jyprw2RjQChHq5Kc95BV47DuCbu8S+iYmgnbDTsf/znQd92gVI2tBeUusD01uL+EK6Wag==",
+    "Microsoft.Web.WebView2/1.0.2151.40": {
+      "sha512": "OPWjZVJvYhDm4Jq+7QdsQfEgv2QHrkaqUkdk4i9FahatsOJ4cIaVLfnDHGsKjcxGqCVX+Lo4mi4Lqh5hcgfsdw==",
       "type": "package",
-      "path": "microsoft.web.webview2/1.0.2088.41",
+      "path": "microsoft.web.webview2/1.0.2151.40",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -6498,7 +6498,7 @@
         "lib/netcoreapp3.0/Microsoft.Web.WebView2.WinForms.xml",
         "lib/netcoreapp3.0/Microsoft.Web.WebView2.Wpf.dll",
         "lib/netcoreapp3.0/Microsoft.Web.WebView2.Wpf.xml",
-        "microsoft.web.webview2.1.0.2088.41.nupkg.sha512",
+        "microsoft.web.webview2.1.0.2151.40.nupkg.sha512",
         "microsoft.web.webview2.nuspec",
         "runtimes/win-arm64/native/WebView2Loader.dll",
         "runtimes/win-arm64/native_uap/Microsoft.Web.WebView2.Core.dll",
@@ -10605,8 +10605,8 @@
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.17763": [
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.14",
-      "Microsoft.UI.Xaml >= 2.8.5",
-      "Microsoft.Web.WebView2 >= 1.0.2088.41"
+      "Microsoft.UI.Xaml >= 2.8.6",
+      "Microsoft.Web.WebView2 >= 1.0.2151.40"
     ]
   },
   "packageFolders": {
@@ -10655,11 +10655,11 @@
           },
           "Microsoft.UI.Xaml": {
             "target": "Package",
-            "version": "[2.8.5, )"
+            "version": "[2.8.6, )"
           },
           "Microsoft.Web.WebView2": {
             "target": "Package",
-            "version": "[1.0.2088.41, )"
+            "version": "[1.0.2151.40, )"
           }
         },
         "imports": [

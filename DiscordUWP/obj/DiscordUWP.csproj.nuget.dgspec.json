@@ -45,11 +45,11 @@
             },
             "Microsoft.UI.Xaml": {
               "target": "Package",
-              "version": "[2.8.5, )"
+              "version": "[2.8.6, )"
             },
             "Microsoft.Web.WebView2": {
               "target": "Package",
-              "version": "[1.0.2088.41, )"
+              "version": "[1.0.2151.40, )"
             }
           },
           "imports": [
