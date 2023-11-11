@@ -1,1 +1,1 @@
-D:\DiscordWebView2\DiscordUWP\DiscordUWP\AppPackages\DiscordUWP_1.4.9.0_Test\DiscordUWP_1.4.9.0_x64.msixbundle
+C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\AppPackages\DiscordUWP_1.4.12.0_Test\DiscordUWP_1.4.12.0_x64.msixbundle

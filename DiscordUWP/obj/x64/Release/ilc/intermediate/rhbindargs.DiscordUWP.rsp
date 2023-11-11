@@ -6,11 +6,11 @@
 "/nativeLink:C:\Users\User\.nuget\packages\runtime.win10-x64.microsoft.net.native.compiler\2.2.12-rel-31116-00\tools\x64\ilc\lib\Native\vmath.lib"
 /customImports
 /methodBodyFolding
-"D:\DiscordWebView2\DiscordUWP\DiscordUWP\obj\x64\Release\ilc\intermediate\MDIL\DiscordUWP.mdilexe"
-"/i:D:\DiscordWebView2\DiscordUWP\DiscordUWP\obj\x64\Release\ilc\intermediate\MDIL"
-"/out:D:\DiscordWebView2\DiscordUWP\DiscordUWP\obj\x64\Release\ilc\intermediate\Native\DiscordUWP.exe"
-"/pdbAltPath:D:\DiscordWebView2\DiscordUWP\DiscordUWP\bin\x64\Release\ilc"
-"/res:D:\DiscordWebView2\DiscordUWP\DiscordUWP\obj\x64\Release\ilc\intermediate\Native.res"
+"C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\obj\x64\Release\ilc\intermediate\MDIL\DiscordUWP.mdilexe"
+"/i:C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\obj\x64\Release\ilc\intermediate\MDIL"
+"/out:C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\obj\x64\Release\ilc\intermediate\Native\DiscordUWP.exe"
+"/pdbAltPath:C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\bin\x64\Release\ilc"
+"/res:C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\obj\x64\Release\ilc\intermediate\Native.res"
 "/i:C:\Users\User\.nuget\packages\runtime.win10-x64.microsoft.net.native.sharedlibrary\2.2.8-rel-31116-00\tools\SharedLibrary\ret\MDIL"
 /shimexe
 "/classlib:SharedLibrary"

@@ -37666,16 +37666,25 @@ namespace Microsoft.Web.WebView2.Core
 
 	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.Web.WebView2.Core.ICoreWebView2NewWindowRequestedEventArgs))]
 	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.Web.WebView2.Core.ICoreWebView2NewWindowRequestedEventArgs2))]
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.Web.WebView2.Core.ICoreWebView2NewWindowRequestedEventArgs3))]
 	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(1)]
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Microsoft.Web.WebView2.Core, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsR" +
 		"untime")]
-	public unsafe sealed class CoreWebView2NewWindowRequestedEventArgs : global::System.__ComObject, global::Microsoft.Web.WebView2.Core.ICoreWebView2NewWindowRequestedEventArgs2, global::Microsoft.Web.WebView2.Core.ICoreWebView2NewWindowRequestedEventArgs
+	public unsafe sealed class CoreWebView2NewWindowRequestedEventArgs : global::System.__ComObject, global::Microsoft.Web.WebView2.Core.ICoreWebView2NewWindowRequestedEventArgs2, global::Microsoft.Web.WebView2.Core.ICoreWebView2NewWindowRequestedEventArgs3, global::Microsoft.Web.WebView2.Core.ICoreWebView2NewWindowRequestedEventArgs
 	{
 		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Name")]
 		public string get_Name()
 		{
 			string __retVal = global::Microsoft.Web.WebView2.Core.ICoreWebView2NewWindowRequestedEventArgs2__Impl.Stubs.get_Name(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "OriginalSourceFrameInfo")]
+		public global::Microsoft.Web.WebView2.Core.CoreWebView2FrameInfo get_OriginalSourceFrameInfo()
+		{
+			global::Microsoft.Web.WebView2.Core.CoreWebView2FrameInfo __retVal = global::Microsoft.Web.WebView2.Core.ICoreWebView2NewWindowRequestedEventArgs3__Impl.Stubs.get_OriginalSourceFrameInfo(this);
 			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			return __retVal;
 		}
@@ -40089,11 +40098,12 @@ namespace Microsoft.Web.WebView2.Core
 	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.Web.WebView2.Core.ICoreWebView2EnvironmentOptions2))]
 	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.Web.WebView2.Core.ICoreWebView2EnvironmentOptions3))]
 	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.Web.WebView2.Core.ICoreWebView2EnvironmentOptions5))]
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.Web.WebView2.Core.ICoreWebView2EnvironmentOptions_Manual3))]
 	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(1)]
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Microsoft.Web.WebView2.Core, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsR" +
 		"untime")]
-	public unsafe sealed class CoreWebView2EnvironmentOptions : global::System.__ComObject, global::Microsoft.Web.WebView2.Core.ICoreWebView2EnvironmentOptions2, global::Microsoft.Web.WebView2.Core.ICoreWebView2EnvironmentOptions3, global::Microsoft.Web.WebView2.Core.ICoreWebView2EnvironmentOptions5, global::Microsoft.Web.WebView2.Core.ICoreWebView2EnvironmentOptions
+	public unsafe sealed class CoreWebView2EnvironmentOptions : global::System.__ComObject, global::Microsoft.Web.WebView2.Core.ICoreWebView2EnvironmentOptions2, global::Microsoft.Web.WebView2.Core.ICoreWebView2EnvironmentOptions3, global::Microsoft.Web.WebView2.Core.ICoreWebView2EnvironmentOptions5, global::Microsoft.Web.WebView2.Core.ICoreWebView2EnvironmentOptions_Manual3, global::Microsoft.Web.WebView2.Core.ICoreWebView2EnvironmentOptions
 	{
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		public CoreWebView2EnvironmentOptions()
@@ -40153,6 +40163,24 @@ namespace Microsoft.Web.WebView2.Core
 		public void put_EnableTrackingPrevention(bool value)
 		{
 			global::Microsoft.Web.WebView2.Core.ICoreWebView2EnvironmentOptions5__Impl.Stubs.put_EnableTrackingPrevention(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "CustomSchemeRegistrations")]
+		public global::System.Collections.Generic.IList<global::Microsoft.Web.WebView2.Core.CoreWebView2CustomSchemeRegistration> get_CustomSchemeRegistrations()
+		{
+			global::System.Collections.Generic.IList<global::Microsoft.Web.WebView2.Core.CoreWebView2CustomSchemeRegistration> __retVal = global::Microsoft.Web.WebView2.Core.ICoreWebView2EnvironmentOptions_Manual3__Impl.Stubs.get_CustomSchemeRegistrations(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "CustomSchemeRegistrations")]
+		public void put_CustomSchemeRegistrations(global::System.Collections.Generic.IList<global::Microsoft.Web.WebView2.Core.CoreWebView2CustomSchemeRegistration> value)
+		{
+			global::Microsoft.Web.WebView2.Core.ICoreWebView2EnvironmentOptions_Manual3__Impl.Stubs.put_CustomSchemeRegistrations(
 								this, 
 								value
 							);
@@ -40232,6 +40260,101 @@ namespace Microsoft.Web.WebView2.Core
 		}
 
 		public CoreWebView2EnvironmentOptions(global::System.IntPtr dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.Web.WebView2.Core.ICoreWebView2CustomSchemeRegistration))]
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.Web.WebView2.Core.ICoreWebView2CustomSchemeRegistration_Manual))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(1)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.Web.WebView2.Core, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsR" +
+		"untime")]
+	public unsafe sealed class CoreWebView2CustomSchemeRegistration : global::System.__ComObject, global::Microsoft.Web.WebView2.Core.ICoreWebView2CustomSchemeRegistration_Manual, global::Microsoft.Web.WebView2.Core.ICoreWebView2CustomSchemeRegistration
+	{
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		public CoreWebView2CustomSchemeRegistration(string schemeName)
+		{
+			global::System.IntPtr retval;
+			retval = __Factory_Microsoft_Web_WebView2_Core__ICoreWebView2CustomSchemeRegistrationFactory_CreateInstance(
+								"Microsoft.Web.WebView2.Core.CoreWebView2CustomSchemeRegistration", 
+								schemeName
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::__Interop.McgHelpers.GetIUnknownForFactoryReturn(ref retval);
+			this.__AttachAndRelease(retval);
+		}
+
+		global::System.IntPtr __Factory_Microsoft_Web_WebView2_Core__ICoreWebView2CustomSchemeRegistrationFactory_CreateInstance(
+					string typeName, 
+					string schemeName)
+		{
+			global::System.IntPtr __pRetVal;
+			__pRetVal = global::Microsoft.Web.WebView2.Core.ICoreWebView2CustomSchemeRegistrationFactory__Impl.Stubs.CreateInstance(
+								global::System.Runtime.InteropServices.McgMarshal.GetActivationFactory(
+													typeName, 
+													typeof(global::Microsoft.Web.WebView2.Core.ICoreWebView2CustomSchemeRegistrationFactory).TypeHandle
+												), 
+								schemeName
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::__Interop.McgHelpers.GetIUnknownForFactoryReturn(ref __pRetVal);
+			return __pRetVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "SchemeName")]
+		public string get_SchemeName()
+		{
+			string __retVal = global::Microsoft.Web.WebView2.Core.ICoreWebView2CustomSchemeRegistration_Manual__Impl.Stubs.get_SchemeName(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "AllowedOrigins")]
+		public global::System.Collections.Generic.IList<string> get_AllowedOrigins()
+		{
+			global::System.Collections.Generic.IList<string> __retVal = global::Microsoft.Web.WebView2.Core.ICoreWebView2CustomSchemeRegistration_Manual__Impl.Stubs.get_AllowedOrigins(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "TreatAsSecure")]
+		public int get_TreatAsSecure()
+		{
+			int __retVal = global::Microsoft.Web.WebView2.Core.ICoreWebView2CustomSchemeRegistration__Impl.Stubs.get_TreatAsSecure(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "TreatAsSecure")]
+		public void put_TreatAsSecure(int value)
+		{
+			global::Microsoft.Web.WebView2.Core.ICoreWebView2CustomSchemeRegistration__Impl.Stubs.put_TreatAsSecure(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "HasAuthorityComponent")]
+		public bool get_HasAuthorityComponent()
+		{
+			bool __retVal = global::Microsoft.Web.WebView2.Core.ICoreWebView2CustomSchemeRegistration__Impl.Stubs.get_HasAuthorityComponent(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "HasAuthorityComponent")]
+		public void put_HasAuthorityComponent(bool value)
+		{
+			global::Microsoft.Web.WebView2.Core.ICoreWebView2CustomSchemeRegistration__Impl.Stubs.put_HasAuthorityComponent(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		public CoreWebView2CustomSchemeRegistration(global::System.IntPtr dummy)
 		{
 		}
 	}
@@ -42378,44 +42501,6 @@ namespace Microsoft.Web.WebView2.Core
 		}
 	}
 
-	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Microsoft.Web.WebView2.Core.ICoreWebView2CustomSchemeRegistration))]
-	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(1)]
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Microsoft.Web.WebView2.Core, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsR" +
-		"untime")]
-	public unsafe sealed class CoreWebView2CustomSchemeRegistration : global::System.__ComObject, global::Microsoft.Web.WebView2.Core.ICoreWebView2CustomSchemeRegistration
-	{
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "TreatAsSecure")]
-		public int get_TreatAsSecure()
-		{
-			global::__Interop.McgHelpers.FailFastForReducedMethod();
-			return 0;
-		}
-
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "TreatAsSecure")]
-		public void put_TreatAsSecure(int value)
-		{
-			global::__Interop.McgHelpers.FailFastForReducedMethod();
-		}
-
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "HasAuthorityComponent")]
-		public bool get_HasAuthorityComponent()
-		{
-			global::__Interop.McgHelpers.FailFastForReducedMethod();
-			return default(bool);
-		}
-
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "HasAuthorityComponent")]
-		public void put_HasAuthorityComponent(bool value)
-		{
-			global::__Interop.McgHelpers.FailFastForReducedMethod();
-		}
-
-		public CoreWebView2CustomSchemeRegistration(global::System.IntPtr dummy)
-		{
-		}
-	}
-
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Microsoft.Web.WebView2.Core, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsR" +
 		"untime")]
@@ -43094,6 +43179,15 @@ namespace Microsoft.Web.WebView2.Core
 	{
 		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Name")]
 		string get_Name();
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.Web.WebView2.Core, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsR" +
+		"untime")]
+	public unsafe interface ICoreWebView2NewWindowRequestedEventArgs3
+	{
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "OriginalSourceFrameInfo")]
+		global::Microsoft.Web.WebView2.Core.CoreWebView2FrameInfo get_OriginalSourceFrameInfo();
 	}
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
@@ -44065,6 +44159,56 @@ namespace Microsoft.Web.WebView2.Core
 
 		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "EnableTrackingPrevention")]
 		void put_EnableTrackingPrevention(bool value);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.Web.WebView2.Core, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsR" +
+		"untime")]
+	public unsafe interface ICoreWebView2EnvironmentOptions_Manual3
+	{
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "CustomSchemeRegistrations")]
+		global::System.Collections.Generic.IList<global::Microsoft.Web.WebView2.Core.CoreWebView2CustomSchemeRegistration> get_CustomSchemeRegistrations();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "CustomSchemeRegistrations")]
+		void put_CustomSchemeRegistrations(global::System.Collections.Generic.IList<global::Microsoft.Web.WebView2.Core.CoreWebView2CustomSchemeRegistration> value);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.Web.WebView2.Core, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsR" +
+		"untime")]
+	public unsafe interface ICoreWebView2CustomSchemeRegistrationFactory
+	{
+		global::System.IntPtr CreateInstance(string schemeName);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.Web.WebView2.Core, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsR" +
+		"untime")]
+	public unsafe interface ICoreWebView2CustomSchemeRegistration
+	{
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "TreatAsSecure")]
+		int get_TreatAsSecure();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "TreatAsSecure")]
+		void put_TreatAsSecure(int value);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "HasAuthorityComponent")]
+		bool get_HasAuthorityComponent();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "HasAuthorityComponent")]
+		void put_HasAuthorityComponent(bool value);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Microsoft.Web.WebView2.Core, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsR" +
+		"untime")]
+	public unsafe interface ICoreWebView2CustomSchemeRegistration_Manual
+	{
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "SchemeName")]
+		string get_SchemeName();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "AllowedOrigins")]
+		global::System.Collections.Generic.IList<string> get_AllowedOrigins();
 	}
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
@@ -45118,20 +45262,6 @@ namespace Microsoft.Web.WebView2.Core
 	public unsafe interface ICoreWebView2File
 	{
 		string get_Path();
-	}
-
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Microsoft.Web.WebView2.Core, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsR" +
-		"untime")]
-	public unsafe interface ICoreWebView2CustomSchemeRegistration
-	{
-		int get_TreatAsSecure();
-
-		void put_TreatAsSecure(int value);
-
-		bool get_HasAuthorityComponent();
-
-		void put_HasAuthorityComponent(bool value);
 	}
 
 	[global::System.Flags]
@@ -47710,6 +47840,14 @@ namespace Windows.Foundation.Metadata
 		public ActivatableAttribute(
 					uint version, 
 					string type)
+		{
+			throw new global::System.InvalidOperationException("Cannot construct type \'Windows.Foundation.Metadata.ActivatableAttribute\'.  Windows Runtime attribute types are n" +
+					"ot constructable.");
+		}
+
+		public ActivatableAttribute(
+					global::System.Type type, 
+					uint version)
 		{
 			throw new global::System.InvalidOperationException("Cannot construct type \'Windows.Foundation.Metadata.ActivatableAttribute\'.  Windows Runtime attribute types are n" +
 					"ot constructable.");

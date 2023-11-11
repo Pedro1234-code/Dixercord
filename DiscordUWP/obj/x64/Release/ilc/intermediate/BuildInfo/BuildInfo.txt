@@ -10,7 +10,7 @@ Framework:
 clrcompression.dll                                    : 4.6.31327.01 @BuiltBy: dlab14-fd304bc8c000001 @Branch: release/uwp6.2-MSRC @SrcCode: https://github.com/dotnet/corefx/tree/53eb6703edaf54d3b3f8eb2911325824b010049b
 Microsoft.CSharp.dll                                  : 4.6.31327.01
 Microsoft.VisualBasic.dll                             : 4.6.31327.01
-Microsoft.Web.WebView2.Core.dll                       : 1.0.2088.41
+Microsoft.Web.WebView2.Core.dll                       : 1.0.2151.40
 Microsoft.Win32.Primitives.dll                        : 4.6.31327.01
 mscorlib.dll                                          : 4.6.31327.01
 netstandard.dll                                       : 4.6.31327.1
@@ -198,5 +198,5 @@ System.Xml.XmlDocument.dll                            : 4.6.31327.01
 System.Xml.XmlSerializer.dll                          : 4.6.31327.01
 System.Xml.XPath.dll                                  : 4.6.31327.01
 System.Xml.XPath.XDocument.dll                        : 4.6.31327.01
-WebView2Loader.dll                                    : 1.0.2088.41
+WebView2Loader.dll                                    : 1.0.2151.40
 WindowsBase.dll                                       : 4.6.31327.1

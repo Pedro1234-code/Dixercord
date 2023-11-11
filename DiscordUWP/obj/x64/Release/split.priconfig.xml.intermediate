@@ -6,7 +6,7 @@
     <autoResourcePackage qualifier="DXFeatureLevel" />
     <omitSchemaFromResourcePacks />
   </packaging>
-  <index root="\" startIndexAt="D:\DiscordWebView2\DiscordUWP\DiscordUWP\bin\x64\Release\ilc\resources.pri">
+  <index root="\" startIndexAt="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\bin\x64\Release\ilc\resources.pri">
     <default>
       <qualifier name="Language" value="pt-BR" />
       <qualifier name="Contrast" value="standard" />

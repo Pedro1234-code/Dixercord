@@ -1,0 +1,9 @@
+
+*.exe
+*.appx
+*.psd1
+*.exe
+DiscordUWP/bin/x64/Release/DiscordUWP.exe
+*.appxsym
+*.msix
+*.msixbundle
