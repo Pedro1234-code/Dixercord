@@ -10,7 +10,18 @@
     mc:Ignorable="d">
 
     <Grid>
-        <controls:WebView2 x:ConnectionId='2' x:Name="DiscordLoader" Source="https://discord.com/login" />
+        <controls:WebView2 x:ConnectionId='2'
+            x:Name="DiscordLoader"
+            Width="NaN"
+            Margin="68,0,0,0"
+            Source="https://discord.com/login" />
+        <Button x:ConnectionId='3'
+            x:Name="ButtonGoToAbout"
+            Width="44"
+            Margin="10,10,0,0"
+            VerticalAlignment="Top"
+                                  
+            Content="⚙️" />
     </Grid>
 </Page>
 

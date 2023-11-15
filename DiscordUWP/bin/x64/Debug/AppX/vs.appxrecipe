@@ -9,8 +9,8 @@
     <SolutionConfiguration>Debug|x64</SolutionConfiguration>
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>3da0e1f4-db8f-4fe2-a154-abfe926b9ddd</PackageIdentityName>
-    <PackageIdentityPublisher>CN=TripodFound</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\DiscordWebView2\DiscordUWP\DiscordUWP\obj\x64\Debug\</IntermediateOutputPath>
+    <PackageIdentityPublisher>CN=70CF1695-06B3-4B57-8DCD-3788C28AED2F</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,33 +18,33 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\DiscordWebView2\DiscordUWP\DiscordUWP\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>2C74E22F0D92EF54003822DC8545C0FACF881BCE5BEBC076763A7D59633494D5</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>60672TripodFound.Dixercord_1.0.0.0_x64__phfnctnb4m8nr</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>60672TripodFound.Dixercord_phfnctnb4m8nr!App</RegisteredUserModeAppID>
+    <LayoutDir>C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>E6A56C0C4C1882DCE08F44EF11F399230EB6A810CCEBDCD3BF74A751A584B640</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>60672TripodFound.Dixercord_1.4.16.0_x64__d7x680j9yw8bm</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>60672TripodFound.Dixercord_d7x680j9yw8bm!App</RegisteredUserModeAppID>
     <RegisteredPackageID>60672TripodFound.Dixercord</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=TripodFound</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredPackagePublisher>CN=70CF1695-06B3-4B57-8DCD-3788C28AED2F</RegisteredPackagePublisher>
+    <RegisteredVersion>1.4.16.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T16:31:51.012</Modified>
+      <Modified>2023-11-14T22:37:45.012</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\bin\x64\Debug\DiscordUWP.exe">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\bin\x64\Debug\DiscordUWP.exe">
       <PackagePath>entrypoint\DiscordUWP.exe</PackagePath>
-      <Modified>2023-11-02T16:31:46.006</Modified>
+      <Modified>2023-11-14T22:37:43.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.web.webview2\1.0.2045.28\build\..\runtimes\win-x64\native_uap\Microsoft.Web.WebView2.Core.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.web.webview2\1.0.2151.40\build\..\runtimes\win-x64\native_uap\Microsoft.Web.WebView2.Core.dll">
       <PackagePath>Microsoft.Web.WebView2.Core.dll</PackagePath>
-      <Modified>2023-09-13T10:13:18.000</Modified>
+      <Modified>2023-10-31T08:35:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.web.webview2\1.0.2045.28\runtimes\win-x64\native\WebView2Loader.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.web.webview2\1.0.2151.40\runtimes\win-x64\native\WebView2Loader.dll">
       <PackagePath>WebView2Loader.dll</PackagePath>
-      <Modified>2023-09-13T10:13:18.000</Modified>
+      <Modified>2023-10-31T08:35:48.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -54,279 +54,287 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2022-10-19T17:28:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.web.webview2\1.0.2045.28\lib\Microsoft.Web.WebView2.Core.winmd">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.web.webview2\1.0.2151.40\lib\Microsoft.Web.WebView2.Core.winmd">
       <PackagePath>Microsoft.Web.WebView2.Core.winmd</PackagePath>
-      <Modified>2023-09-13T10:14:04.000</Modified>
+      <Modified>2023-10-31T08:35:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:56.382</Modified>
+      <Modified>2023-11-11T16:53:53.679</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\LargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\LargeTile.scale-125.png">
       <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:56.575</Modified>
+      <Modified>2023-11-11T16:53:53.723</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\LargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\LargeTile.scale-150.png">
       <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:56.769</Modified>
+      <Modified>2023-11-11T16:53:53.764</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:56.979</Modified>
+      <Modified>2023-11-11T16:53:53.828</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:57.309</Modified>
+      <Modified>2023-11-11T16:53:54.022</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\logoDixercord-removebg-preview.png">
+      <PackagePath>Assets\logoDixercord-removebg-preview.png</PackagePath>
+      <Modified>2023-11-13T20:37:50.622</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:53.618</Modified>
+      <Modified>2023-11-11T16:53:53.283</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\SmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:53.819</Modified>
+      <Modified>2023-11-11T16:53:53.295</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\SmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:54.002</Modified>
+      <Modified>2023-11-11T16:53:53.308</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:54.169</Modified>
+      <Modified>2023-11-11T16:53:53.322</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:54.358</Modified>
+      <Modified>2023-11-11T16:53:53.345</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:58:00.989</Modified>
+      <Modified>2023-11-11T16:53:54.314</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:58:01.179</Modified>
+      <Modified>2023-11-11T16:53:54.362</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:58:01.384</Modified>
+      <Modified>2023-11-11T16:53:54.412</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:58:02.079</Modified>
+      <Modified>2023-11-11T16:53:54.764</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:54.533</Modified>
+      <Modified>2023-11-11T16:53:53.359</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:54.706</Modified>
+      <Modified>2023-11-11T16:53:53.375</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:54.872</Modified>
+      <Modified>2023-11-11T16:53:53.391</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:55.251</Modified>
+      <Modified>2023-11-11T16:53:53.467</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:58:00.084</Modified>
+      <Modified>2023-11-11T16:53:54.223</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:58:00.255</Modified>
+      <Modified>2023-11-11T16:53:54.233</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:58:00.788</Modified>
+      <Modified>2023-11-11T16:53:54.279</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:58:00.417</Modified>
+      <Modified>2023-11-11T16:53:54.243</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:58:00.596</Modified>
+      <Modified>2023-11-11T16:53:54.253</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:59.207</Modified>
+      <Modified>2023-11-11T16:53:54.158</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:59.903</Modified>
+      <Modified>2023-11-11T16:53:54.213</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:59.544</Modified>
+      <Modified>2023-11-11T16:53:54.179</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:59.710</Modified>
+      <Modified>2023-11-11T16:53:54.189</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:57.472</Modified>
+      <Modified>2023-11-11T16:53:54.033</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:57.638</Modified>
+      <Modified>2023-11-11T16:53:54.045</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:57.806</Modified>
+      <Modified>2023-11-11T16:53:54.056</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:58.151</Modified>
+      <Modified>2023-11-11T16:53:54.086</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:58.330</Modified>
+      <Modified>2023-11-11T16:53:54.096</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:58.501</Modified>
+      <Modified>2023-11-11T16:53:54.106</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:59.034</Modified>
+      <Modified>2023-11-11T16:53:54.148</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\Square44x44Logo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:58.672</Modified>
+      <Modified>2023-11-11T16:53:54.116</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:58.844</Modified>
+      <Modified>2023-11-11T16:53:54.127</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:58:02.250</Modified>
+      <Modified>2023-11-11T16:53:54.776</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\StoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:58:02.421</Modified>
+      <Modified>2023-11-11T16:53:54.785</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\StoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:58:02.585</Modified>
+      <Modified>2023-11-11T16:53:54.794</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:58:02.753</Modified>
+      <Modified>2023-11-11T16:53:54.806</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:58:02.931</Modified>
+      <Modified>2023-11-11T16:53:54.822</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:55.419</Modified>
+      <Modified>2023-11-11T16:53:53.484</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:55.595</Modified>
+      <Modified>2023-11-11T16:53:53.503</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:55.771</Modified>
+      <Modified>2023-11-11T16:53:53.526</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:56.204</Modified>
+      <Modified>2023-11-11T16:53:53.654</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2023-04-05T19:03:14.396</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:58:01.624</Modified>
+      <Modified>2023-11-11T16:53:54.490</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:55.047</Modified>
+      <Modified>2023-11-11T16:53:53.413</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:57.977</Modified>
+      <Modified>2023-11-11T16:53:54.068</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:59.376</Modified>
+      <Modified>2023-11-11T16:53:54.168</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-02T15:57:55.961</Modified>
+      <Modified>2023-11-11T16:53:53.559</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2023-11-02T15:46:09.144</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\bin\x64\Debug\DiscordUWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\bin\x64\Debug\DiscordUWP.xr.xml">
       <PackagePath>DiscordUWP.xr.xml</PackagePath>
-      <Modified>2023-11-02T15:53:25.134</Modified>
+      <Modified>2023-11-14T21:57:06.230</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-11-02T16:31:45.812</Modified>
+      <Modified>2023-11-14T22:37:43.463</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\bin\x64\Debug\AboutPage.xbf">
+      <PackagePath>AboutPage.xbf</PackagePath>
+      <Modified>2023-11-14T22:37:43.463</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-11-02T16:31:45.812</Modified>
+      <Modified>2023-11-14T22:37:43.463</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.22621.0\\redist\Debug\X64\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -336,62 +344,62 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2022-10-19T21:05:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.5\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.6\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
       <PackagePath>Microsoft.UI.Xaml.winmd</PackagePath>
-      <Modified>2023-06-22T23:15:20.000</Modified>
+      <Modified>2023-10-30T22:14:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-11-02T16:31:46.851</Modified>
+      <Modified>2023-11-14T22:37:43.681</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\DiscordWebView2\DiscordUWP\DiscordUWP\bin\x64\Debug\Core\DiscordUWP.exe">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\bin\x64\Debug\Core\DiscordUWP.exe">
       <PackagePath>DiscordUWP.exe</PackagePath>
-      <Modified>2023-11-02T16:31:51.008</Modified>
+      <Modified>2023-11-14T22:37:45.008</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.5\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx">
+    <ResolvedSDKReference Include="C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.6\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx">
       <Name>Microsoft.UI.Xaml.2.8</Name>
-      <Version>8.2306.22001.0</Version>
+      <Version>8.2310.30001.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2306.22001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.5\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2310.30001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.6\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.5\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx">
+    <ResolvedSDKReference Include="C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.6\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx">
       <Name>Microsoft.UI.Xaml.2.8</Name>
-      <Version>8.2306.22001.0</Version>
+      <Version>8.2310.30001.0</Version>
       <Architecture>Win32</Architecture>
-      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2306.22001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.5\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2310.30001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.6\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.5\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.8.appx">
+    <ResolvedSDKReference Include="C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.6\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.8.appx">
       <Name>Microsoft.UI.Xaml.2.8</Name>
-      <Version>8.2306.22001.0</Version>
+      <Version>8.2310.30001.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2306.22001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.5\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2310.30001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.6\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.5\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.8.appx">
+    <ResolvedSDKReference Include="C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.6\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.8.appx">
       <Name>Microsoft.UI.Xaml.2.8</Name>
-      <Version>8.2306.22001.0</Version>
+      <Version>8.2310.30001.0</Version>
       <Architecture>arm</Architecture>
-      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2306.22001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.5\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2310.30001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.6\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.5\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.8.appx">
+    <ResolvedSDKReference Include="C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.6\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.8.appx">
       <Name>Microsoft.UI.Xaml.2.8</Name>
-      <Version>8.2306.22001.0</Version>
+      <Version>8.2310.30001.0</Version>
       <Architecture>arm64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2306.22001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.5\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2310.30001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\User\.nuget\packages\microsoft.ui.xaml\2.8.6\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>

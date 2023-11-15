@@ -1,1 +1,1 @@
-D:\DiscordWebView2\DiscordUWP\DiscordUWP\AppPackages\DiscordUWP_1.4.4.0_x86_x64_arm64_bundle.msixupload
+C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\AppPackages\DiscordUWP_1.4.23.0_arm64_bundle.msixupload

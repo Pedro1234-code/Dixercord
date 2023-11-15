@@ -223,39 +223,41 @@ namespace DiscordUWP.DiscordUWP_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[15];
-            _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.WebView2";
-            _typeNameTable[1] = "Windows.UI.Xaml.Controls.Control";
-            _typeNameTable[2] = "System.Uri";
-            _typeNameTable[3] = "Object";
-            _typeNameTable[4] = "Boolean";
-            _typeNameTable[5] = "Microsoft.Web.WebView2.Core.CoreWebView2";
-            _typeNameTable[6] = "DiscordUWP.MainPage";
-            _typeNameTable[7] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[8] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[9] = "Microsoft.UI.Xaml.Controls.IconSource";
-            _typeNameTable[10] = "Windows.UI.Xaml.DependencyObject";
-            _typeNameTable[11] = "Windows.UI.Xaml.Media.Brush";
-            _typeNameTable[12] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
-            _typeNameTable[13] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
-            _typeNameTable[14] = "Int32";
+            _typeNameTable = new string[16];
+            _typeNameTable[0] = "DiscordUWP.AboutPage";
+            _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[3] = "Microsoft.UI.Xaml.Controls.WebView2";
+            _typeNameTable[4] = "Windows.UI.Xaml.Controls.Control";
+            _typeNameTable[5] = "System.Uri";
+            _typeNameTable[6] = "Object";
+            _typeNameTable[7] = "Boolean";
+            _typeNameTable[8] = "Microsoft.Web.WebView2.Core.CoreWebView2";
+            _typeNameTable[9] = "DiscordUWP.MainPage";
+            _typeNameTable[10] = "Microsoft.UI.Xaml.Controls.IconSource";
+            _typeNameTable[11] = "Windows.UI.Xaml.DependencyObject";
+            _typeNameTable[12] = "Windows.UI.Xaml.Media.Brush";
+            _typeNameTable[13] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
+            _typeNameTable[14] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
+            _typeNameTable[15] = "Int32";
 
-            _typeTable = new global::System.Type[15];
-            _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.WebView2);
-            _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Control);
-            _typeTable[2] = typeof(global::System.Uri);
-            _typeTable[3] = typeof(global::System.Object);
-            _typeTable[4] = typeof(global::System.Boolean);
-            _typeTable[5] = typeof(global::Microsoft.Web.WebView2.Core.CoreWebView2);
-            _typeTable[6] = typeof(global::DiscordUWP.MainPage);
-            _typeTable[7] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[8] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[9] = typeof(global::Microsoft.UI.Xaml.Controls.IconSource);
-            _typeTable[10] = typeof(global::Windows.UI.Xaml.DependencyObject);
-            _typeTable[11] = typeof(global::Windows.UI.Xaml.Media.Brush);
-            _typeTable[12] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
-            _typeTable[13] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
-            _typeTable[14] = typeof(global::System.Int32);
+            _typeTable = new global::System.Type[16];
+            _typeTable[0] = typeof(global::DiscordUWP.AboutPage);
+            _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[3] = typeof(global::Microsoft.UI.Xaml.Controls.WebView2);
+            _typeTable[4] = typeof(global::Windows.UI.Xaml.Controls.Control);
+            _typeTable[5] = typeof(global::System.Uri);
+            _typeTable[6] = typeof(global::System.Object);
+            _typeTable[7] = typeof(global::System.Boolean);
+            _typeTable[8] = typeof(global::Microsoft.Web.WebView2.Core.CoreWebView2);
+            _typeTable[9] = typeof(global::DiscordUWP.MainPage);
+            _typeTable[10] = typeof(global::Microsoft.UI.Xaml.Controls.IconSource);
+            _typeTable[11] = typeof(global::Windows.UI.Xaml.DependencyObject);
+            _typeTable[12] = typeof(global::Windows.UI.Xaml.Media.Brush);
+            _typeTable[13] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
+            _typeTable[14] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
+            _typeTable[15] = typeof(global::System.Int32);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -290,10 +292,11 @@ namespace DiscordUWP.DiscordUWP_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_WebView2() { return new global::Microsoft.UI.Xaml.Controls.WebView2(); }
-        private object Activate_6_MainPage() { return new global::DiscordUWP.MainPage(); }
-        private object Activate_12_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
-        private void VectorAdd_13_IList(object instance, object item)
+        private object Activate_0_AboutPage() { return new global::DiscordUWP.AboutPage(); }
+        private object Activate_3_WebView2() { return new global::Microsoft.UI.Xaml.Controls.WebView2(); }
+        private object Activate_9_MainPage() { return new global::DiscordUWP.MainPage(); }
+        private object Activate_13_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+        private void VectorAdd_14_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
@@ -310,9 +313,24 @@ namespace DiscordUWP.DiscordUWP_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  Microsoft.UI.Xaml.Controls.WebView2
+            case 0:   //  DiscordUWP.AboutPage
+                userType = new global::DiscordUWP.DiscordUWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_0_AboutPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 1:   //  Windows.UI.Xaml.Controls.Page
+                xamlType = new global::DiscordUWP.DiscordUWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 2:   //  Windows.UI.Xaml.Controls.UserControl
+                xamlType = new global::DiscordUWP.DiscordUWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 3:   //  Microsoft.UI.Xaml.Controls.WebView2
                 userType = new global::DiscordUWP.DiscordUWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_0_WebView2;
+                userType.Activator = Activate_3_WebView2;
                 userType.AddMemberName("Source");
                 userType.AddMemberName("CanGoForward");
                 userType.AddMemberName("CanGoBack");
@@ -320,63 +338,55 @@ namespace DiscordUWP.DiscordUWP_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 1:   //  Windows.UI.Xaml.Controls.Control
+            case 4:   //  Windows.UI.Xaml.Controls.Control
                 xamlType = new global::DiscordUWP.DiscordUWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 2:   //  System.Uri
+            case 5:   //  System.Uri
                 userType = new global::DiscordUWP.DiscordUWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 3:   //  Object
+            case 6:   //  Object
                 xamlType = new global::DiscordUWP.DiscordUWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 4:   //  Boolean
+            case 7:   //  Boolean
                 xamlType = new global::DiscordUWP.DiscordUWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 5:   //  Microsoft.Web.WebView2.Core.CoreWebView2
+            case 8:   //  Microsoft.Web.WebView2.Core.CoreWebView2
                 userType = new global::DiscordUWP.DiscordUWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 6:   //  DiscordUWP.MainPage
+            case 9:   //  DiscordUWP.MainPage
                 userType = new global::DiscordUWP.DiscordUWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_6_MainPage;
+                userType.Activator = Activate_9_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 7:   //  Windows.UI.Xaml.Controls.Page
-                xamlType = new global::DiscordUWP.DiscordUWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 8:   //  Windows.UI.Xaml.Controls.UserControl
-                xamlType = new global::DiscordUWP.DiscordUWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 9:   //  Microsoft.UI.Xaml.Controls.IconSource
+            case 10:   //  Microsoft.UI.Xaml.Controls.IconSource
                 userType = new global::DiscordUWP.DiscordUWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 userType.AddMemberName("Foreground");
                 userType.SetIsBindable();
                 xamlType = userType;
                 break;
 
-            case 10:   //  Windows.UI.Xaml.DependencyObject
+            case 11:   //  Windows.UI.Xaml.DependencyObject
                 xamlType = new global::DiscordUWP.DiscordUWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 11:   //  Windows.UI.Xaml.Media.Brush
+            case 12:   //  Windows.UI.Xaml.Media.Brush
                 xamlType = new global::DiscordUWP.DiscordUWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 12:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
+            case 13:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
                 userType = new global::DiscordUWP.DiscordUWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_12_TreeViewNode;
+                userType.Activator = Activate_13_TreeViewNode;
                 userType.AddMemberName("IsExpanded");
                 userType.AddMemberName("HasUnrealizedChildren");
                 userType.AddMemberName("Content");
@@ -388,14 +398,14 @@ namespace DiscordUWP.DiscordUWP_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 13:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
+            case 14:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
                 userType = new global::DiscordUWP.DiscordUWP_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.CollectionAdd = VectorAdd_13_IList;
+                userType.CollectionAdd = VectorAdd_14_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 14:   //  Int32
+            case 15:   //  Int32
                 xamlType = new global::DiscordUWP.DiscordUWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }

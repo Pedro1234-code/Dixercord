@@ -9,7 +9,7 @@
   <Identity
     Name="60672TripodFound.Dixercord"
     Publisher="CN=70CF1695-06B3-4B57-8DCD-3788C28AED2F"
-    Version="1.4.14.0" />
+    Version="1.4.24.0" />
 
   <mp:PhoneIdentity PhoneProductId="3da0e1f4-db8f-4fe2-a154-abfe926b9ddd" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 

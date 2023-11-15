@@ -202,5 +202,6 @@
 "C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\obj\x64\Release\PackageUploadLayout\Assets\Square150x150Logo.scale-200.png"			"Assets\Square150x150Logo.scale-200.png"
 "C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\obj\x64\Release\PackageUploadLayout\Assets\SplashScreen.scale-200.png"			"Assets\SplashScreen.scale-200.png"
 "C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\obj\x64\Release\PackageUploadLayout\Assets\SmallTile.scale-200.png"			"Assets\SmallTile.scale-200.png"
+"C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\obj\x64\Release\PackageUploadLayout\Assets\logoDixercord-removebg-preview.png"			"Assets\logoDixercord-removebg-preview.png"
 "C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\obj\x64\Release\PackageUploadLayout\Assets\LockScreenLogo.scale-200.png"			"Assets\LockScreenLogo.scale-200.png"
 "C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\obj\x64\Release\PackageUploadLayout\Assets\LargeTile.scale-200.png"			"Assets\LargeTile.scale-200.png"

@@ -7,6 +7,11 @@
 			<TargetSize>256,16,24,32,48</TargetSize>
 		</Qualifiers>
 		<ResourceMapSubtree name="Files">
+			<NamedResource name="AboutPage.xbf" uri="ms-resource://60672TripodFound.Dixercord/Files/AboutPage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
 			<NamedResource name="App.xbf" uri="ms-resource://60672TripodFound.Dixercord/Files/App.xbf">
 				<Candidate type="EmbeddedData">
 					<Base64Value>[Embedded Binary Data]</Base64Value>
@@ -31,6 +36,11 @@
 				<NamedResource name="LockScreenLogo.png" uri="ms-resource://60672TripodFound.Dixercord/Files/Assets/LockScreenLogo.png">
 					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
 						<Value>Assets\LockScreenLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="logoDixercord-removebg-preview.png" uri="ms-resource://60672TripodFound.Dixercord/Files/Assets/logoDixercord-removebg-preview.png">
+					<Candidate type="Path">
+						<Value>Assets\logoDixercord-removebg-preview.png</Value>
 					</Candidate>
 				</NamedResource>
 				<NamedResource name="SmallTile.png" uri="ms-resource://60672TripodFound.Dixercord/Files/Assets/SmallTile.png">

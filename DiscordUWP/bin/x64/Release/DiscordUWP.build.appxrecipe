@@ -48,6 +48,9 @@
     <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\bin\x64\Release\ilc\Assets\logoDixercord-removebg-preview.png">
+      <PackagePath>Assets\logoDixercord-removebg-preview.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\Dixercord\DiscordUWP\bin\x64\Release\ilc\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
